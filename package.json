@@ -1,0 +1,31 @@
+{
+	"name": "@panda-clouds/eslint-config-panda-clouds",
+	"version": "0.1.0",
+	"description": "An ESLint config for standardizing Panda Clouds Projects.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/panda-clouds/eslint-config-panda-clouds.git"
+	},
+	"author": {
+		"name": "Marc Smith",
+		"email": "mr.marcsmith@me.com",
+		"url": "https://github.com/mrmarcsmith"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">= 8"
+	},
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"panda",
+		"clouds",
+		"pandaclouds"
+	],
+	"dependencies": {
+		"eslint": "^5.14.1",
+		"eslint-plugin-jest": "^22.3.0"
+	},
+	"devDependencies": {}
+}
