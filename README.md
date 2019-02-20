@@ -14,15 +14,15 @@ Installation
 3. Please run the following command.
 
 ```
-npm install --save @panda-clouds/eslint-config-panda-clouds
+npm install --save-dev @panda-clouds/eslint-config-panda-clouds
 ```
 
 4. run the following command:
 
 ```
-cat << 'EOF' >> .eslintrc.js
+cat << 'EOF' > .eslintrc.js
 module.exports = {
-    extends: 'eslint-config-panda-clouds',
+    extends: '@panda-clouds/eslint-config-panda-clouds',
     rules: {},
 };
 EOF
