@@ -20,7 +20,7 @@ module.exports = {
         'jest/lowercase-name': 2,
         'jest/no-alias-methods': 2,
         'jest/no-disabled-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
-        'jest/no-focused-tests': 2,
+        'jest/no-focused-tests':  process.env.NODE_ENV === 'production' ? 2 : 1,
         'jest/no-hooks': 2,
         'jest/no-identical-title': 2,
         'jest/no-jasmine-globals': 2,

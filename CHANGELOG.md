@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 0.3.0
+
+- Allowed focused tests EXPECT in production
+
 ### 0.2.0
 
 - Allowed disabled tests EXPECT in production
