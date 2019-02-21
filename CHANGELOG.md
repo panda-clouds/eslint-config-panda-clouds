@@ -1,6 +1,10 @@
 ## Panda Clouds - ESLint Changelog
 
-### 0.3.0
+### 0.5.0
+
+- removed jest/no-hooks
+
+### 0.4.0
 
 - bumped to ES9
 - added async/await rules

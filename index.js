@@ -20,7 +20,7 @@ module.exports = {
 		'jest/no-alias-methods': 2,
 		'jest/no-disabled-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
 		'jest/no-focused-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
-		'jest/no-hooks': 2,
+		'jest/no-hooks': 0, // this doesn't allow beforeAll and afterAll 
 		'jest/no-identical-title': 2,
 		'jest/no-jasmine-globals': 2,
 		'jest/no-jest-import': 2,
