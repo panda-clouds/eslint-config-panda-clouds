@@ -88,7 +88,7 @@ module.exports = {
 		],
 		'block-scoped-var': 2,
 		'complexity': 0,
-		'consistent-return': 2,
+		'consistent-return': 0, // this blocks us from returning promises from if statments
 		'curly': [2, 'all'],
 		'default-case': 0,
 		'dot-notation': 2,

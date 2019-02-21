@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 0.8.0
+
+- disabled consistent-return so we could return promises from if statements
+
 ### 0.7.0
 
 - allowed myVar + ' (' + otherVar + ') '
