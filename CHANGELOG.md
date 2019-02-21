@@ -2,6 +2,11 @@
 
 ### 0.3.0
 
+- bumped to ES9
+- added async/await rules
+
+### 0.3.0
+
 - Allowed focused tests EXPECT in production
 
 ### 0.2.0
