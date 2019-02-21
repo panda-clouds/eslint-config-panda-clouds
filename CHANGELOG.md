@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 0.7.0
+
+- allowed myVar + ' (' + otherVar + ') '
+
 ### 0.6.0
 
 - operator-linebreak to 'after'

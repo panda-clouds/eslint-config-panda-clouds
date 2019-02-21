@@ -20,12 +20,12 @@ module.exports = {
 		'jest/no-alias-methods': 2,
 		'jest/no-disabled-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
 		'jest/no-focused-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
-		'jest/no-hooks': 0, // this doesn't allow beforeAll and afterAll 
+		'jest/no-hooks': 0, // this doesn't allow beforeAll and afterAll
 		'jest/no-identical-title': 2,
 		'jest/no-jasmine-globals': 2,
 		'jest/no-jest-import': 2,
 		'jest/no-large-snapshots': 2,
-		'jest/no-test-callback': 0, // this doesn't allow done 
+		'jest/no-test-callback': 0, // this doesn't allow done
 		'jest/no-test-prefixes': 0, // fit and xit are ok
 		'jest/no-test-return-statement': 2,
 		'jest/no-truthy-falsy': 2,
@@ -38,7 +38,7 @@ module.exports = {
 		'jest/prefer-to-have-length': 2,
 		'jest/prefer-inline-snapshots': 2,
 		'jest/require-tothrow-message': 2,
-		'jest/valid-describe': 0, // this doesn't allow paramters in test name 
+		'jest/valid-describe': 0, // this doesn't allow paramters in test name
 		'jest/valid-expect-in-promise': 2,
 		'jest/valid-expect': 2,
 		'jest/prefer-todo': 2,
@@ -111,6 +111,7 @@ module.exports = {
 				boolean: true,
 				number: true,
 				string: true,
+				allow: ['+'],
 			},
 		],
 		'no-implied-eval': 2,
