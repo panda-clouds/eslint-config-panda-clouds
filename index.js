@@ -218,7 +218,7 @@ module.exports = {
 		'object-curly-spacing': [2, 'always', {}],
 		'one-var': 0,
 		'operator-assignment': [2, 'always'],
-		'operator-linebreak': [2, 'before'],
+		'operator-linebreak': [2, 'after'],
 		'padded-blocks': [2, 'never'],
 		'padding-line-between-statements': [
 			2,

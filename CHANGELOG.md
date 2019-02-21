@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 0.6.0
+
+- operator-linebreak to 'after'
+
 ### 0.5.0
 
 - removed jest/no-hooks

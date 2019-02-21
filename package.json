@@ -1,6 +1,6 @@
 {
 	"name": "@panda-clouds/eslint-config-panda-clouds",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"description": "An ESLint config for standardizing Panda Clouds Projects.",
 	"main": "index.js",
 	"repository": {
