@@ -25,7 +25,7 @@ module.exports = {
 		'jest/no-jasmine-globals': 2,
 		'jest/no-jest-import': 2,
 		'jest/no-large-snapshots': 2,
-		'jest/no-test-callback': 0, // this doesn't allow done
+		'jest/no-test-callback': 2, // use await/async instead
 		'jest/no-test-prefixes': 0, // fit and xit are ok
 		'jest/no-test-return-statement': 2,
 		'jest/no-truthy-falsy': 2,

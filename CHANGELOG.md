@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 0.9.0
+
+- disallowed 'done' in favor of async/await
+
 ### 0.8.0
 
 - disabled consistent-return so we could return promises from if statements
