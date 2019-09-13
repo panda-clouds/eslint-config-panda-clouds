@@ -6,6 +6,7 @@ module.exports = {
 	env: {
 		'node': true,
 		'jest/globals': true,
+		'es6': true,
 	},
 	parserOptions: {
 		ecmaVersion: 9,
@@ -18,8 +19,8 @@ module.exports = {
 		'jest/expect-expect': 2,
 		'jest/lowercase-name': 2,
 		'jest/no-alias-methods': 2,
-		'jest/no-disabled-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
-		'jest/no-focused-tests': process.env.NODE_ENV === 'production' ? 2 : 1,
+		'jest/no-disabled-tests': process.env.NODE_ENV === 'production' ? 2 : 0,
+		'jest/no-focused-tests': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'jest/no-hooks': 0, // this doesn't allow beforeAll and afterAll
 		'jest/no-identical-title': 2,
 		'jest/no-jasmine-globals': 2,
@@ -53,10 +54,10 @@ module.exports = {
 		'require-await': 2,
 		'comma-dangle': [2, 'always-multiline'],
 		'no-cond-assign': [2, 'always'],
-		'no-console': process.env.NODE_ENV === 'production' ? 2 : 1,
+		'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'no-constant-condition': 2,
 		'no-control-regex': 2,
-		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 1,
+		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'no-dupe-args': 2,
 		'no-dupe-keys': 2,
 		'no-duplicate-case': 2,

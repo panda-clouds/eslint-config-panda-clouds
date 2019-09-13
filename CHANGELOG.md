@@ -1,5 +1,9 @@
 ## Panda Clouds - ESLint Changelog
 
+### 1.1.0
+- added 'es6' env
+- silenced console, debugger, no-disabled-tests, and no-focused-tests unless production
+
 ### 1.0.0
 - added no-undef
 - added camelcase
