@@ -166,7 +166,7 @@ module.exports = {
 		'no-undef-init': 2,
 		'no-undef': 2,
 		'no-undefined': 2,
-		'no-unused-vars': 2,
+		'no-unused-vars': process.env.NODE_ENV === 'production' ? 2 : 1,
 		'no-use-before-define': [2, 'nofunc'],
 		'callback-return': 0,
 		'handle-callback-err': 0,
