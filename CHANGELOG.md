@@ -1,7 +1,10 @@
 ## Panda Clouds - ESLint Changelog
 
+### 1.3.0
+- disabled 'camelCase' and 'newline-per-chained-call' because there are lots of exceptions to these rules
+
 ### 1.2.0
-- made un
+- made 'no-unused-vars' a warning unless prod
 
 ### 1.1.0
 - added 'es6' env
